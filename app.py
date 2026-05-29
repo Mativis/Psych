@@ -689,7 +689,6 @@ def render_login_page():
 def render_sidebar():
     with st.sidebar:
         st.markdown("<div style='text-align: center; padding: 16px 0;'>", unsafe_allow_html=True)
-        st.image("https://cdn-icons-png.flaticon.com/512/3004/3004381.png", width=80)
         st.markdown("<h2 style='margin: 8px 0;'>RPA</h2>", unsafe_allow_html=True)
         st.markdown("<p style='color: #64748b; font-size: 0.8rem;'>Registro de Pensamentos</p>", unsafe_allow_html=True)
         st.markdown("</div>", unsafe_allow_html=True)
